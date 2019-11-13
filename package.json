@@ -4,13 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "dev": "nodemon dist",
+    "start": "node dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "homepage": "https://github.com/Armandosz/mywebsite.git",
   "dependencies": {
-    "gh-pages": "^2.1.1"
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "gh-pages": "^2.1.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4"
   }
 }
